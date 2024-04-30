@@ -1,6 +1,6 @@
 import { createBrowserClient } from "@supabase/ssr";
-import type { Database } from "@/utils/database.types";
-import type { TypedSupabaseClient } from "@/utils/types";
+import type { Database } from "@/supabaseTypes/database.types";
+import type { TypedSupabaseClient } from "@/supabaseTypes/typedSupabaseClient";
 import { useMemo } from "react";
 
 let client: TypedSupabaseClient | undefined;

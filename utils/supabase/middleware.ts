@@ -1,6 +1,6 @@
 import { createServerClient, type CookieOptions } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
-import { Database } from "./database.types"; // Assuming you have the database types defined
+import { Database } from "@/supabaseTypes/database.types"; // Assuming you have the database types defined
 
 export const createMiddlewareClient = (request: NextRequest) => {
   // Create an unmodified response
