@@ -1,4 +1,8 @@
-import { Input, Link, Navbar, NavbarContent } from "@nextui-org/react";
+import { NavbarContent } from "@nextui-org/navbar";
+import { Input } from "@nextui-org/input";
+import { Link } from "@nextui-org/link";
+import { Navbar } from "@nextui-org/navbar";
+
 import React from "react";
 import { FeedbackIcon } from "../icons/navbar/feedback-icon";
 import { GithubIcon } from "../icons/navbar/github-icon";
