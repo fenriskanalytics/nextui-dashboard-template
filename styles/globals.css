@@ -11,3 +11,7 @@ body {
 * {
   box-sizing: border-box;
 }
+/* Add a class to control the SearchLayout specifically */
+.search-layout-container {
+  flex: 1 1 100%; /* Take full width of the flex container without shrinking */
+}

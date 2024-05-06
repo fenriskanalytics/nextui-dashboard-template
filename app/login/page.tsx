@@ -1,8 +1,7 @@
-import type { NextPage } from "next";
 import Header from "@/components/header";
 import { LoginForm } from "@/app/login/loginForm";
 
-const Home: NextPage = () => {
+export default async function LoginPage() {
   return (
     <>
       <Header />
@@ -15,6 +14,4 @@ const Home: NextPage = () => {
       </section>
     </>
   );
-};
-
-export default Home;
+}

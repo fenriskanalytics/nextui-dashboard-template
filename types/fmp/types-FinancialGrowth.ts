@@ -1,0 +1,40 @@
+// Types for FinancialGrowth
+export interface FinancialGrowth {
+    symbol: string;
+    date: string;
+    period: string;
+    revenueGrowth: number;
+    grossProfitGrowth: number;
+    ebitgrowth: number;
+    operatingIncomeGrowth: number;
+    netIncomeGrowth: number;
+    epsgrowth: number;
+    epsdilutedGrowth: number;
+    weightedAverageSharesGrowth: number;
+    weightedAverageSharesDilutedGrowth: number;
+    dividendsperShareGrowth: number;
+    operatingCashFlowGrowth: number;
+    freeCashFlowGrowth: number;
+    tenYRevenueGrowthPerShare: number;
+    fiveYRevenueGrowthPerShare: number;
+    threeYRevenueGrowthPerShare: number;
+    tenYOperatingCFGrowthPerShare: number;
+    fiveYOperatingCFGrowthPerShare: number;
+    threeYOperatingCFGrowthPerShare: number;
+    tenYNetIncomeGrowthPerShare: number;
+    fiveYNetIncomeGrowthPerShare: number;
+    threeYNetIncomeGrowthPerShare: number;
+    tenYShareholdersEquityGrowthPerShare: number;
+    fiveYShareholdersEquityGrowthPerShare: number;
+    threeYShareholdersEquityGrowthPerShare: number;
+    tenYDividendperShareGrowthPerShare: number;
+    fiveYDividendperShareGrowthPerShare: number;
+    threeYDividendperShareGrowthPerShare: number;
+    receivablesGrowth: number;
+    inventoryGrowth: number;
+    assetGrowth: number;
+    bookValueperShareGrowth: number;
+    debtGrowth: number;
+    rdexpenseGrowth: number;
+    sgaexpensesGrowth: number;
+}

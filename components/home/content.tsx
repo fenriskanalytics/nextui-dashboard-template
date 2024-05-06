@@ -8,6 +8,7 @@ import NextLink from "next/link";
 import { GlanceCardSection } from "../sections/glanceCardSection";
 import { CardAgents } from "./card-agents";
 import { CardTransactions } from "./card-transactions";
+import SearchLayout from '../layout/search-layout'; // Make sure the path is correct
 
 const Chart = dynamic(
   () => import("../charts/steam").then((mod) => mod.Steam),
@@ -18,7 +19,11 @@ const Chart = dynamic(
 
 export const Content = () => (
   <div className="h-full lg:px-6">
-    <div className="flex justify-center gap-4 xl:gap-6 pt-3 px-4 lg:px-0  flex-wrap xl:flex-nowrap sm:pt-10 max-w-[90rem] mx-auto w-full">
+    <div className="flex justify-center gap-4 xl:gap-6 pt-3 px-4 lg:px-0 flex-wrap xl:flex-nowrap sm:pt-10 max-w-[90rem] mx-auto w-full">
+      {/* Search Layout */}
+      <SearchLayout />
+      
+      {/* Rest of the content */}
       <div className="mt-6 gap-6 flex flex-col w-full">
         {/* Card Section Top */}
         <div className="flex flex-col gap-2">
